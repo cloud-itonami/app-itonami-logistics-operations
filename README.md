@@ -56,7 +56,7 @@ route は `[...path]`（rest parameter）だったので `/xrpc/a/b` は nsid `"
 上流へ渡っていた。移行はその意味論を変えていない —— 空（`/xrpc` と `/xrpc/`）だけが
 400 `Missing XRPC method` で、文言も SvelteKit 版のままである。
 
-## いま在るもの — 19 ファイル
+## いま在るもの — 20 ファイル
 
 | 面 | ファイル |
 |---|---|
@@ -67,7 +67,7 @@ route は `[...path]`（rest parameter）だったので `/xrpc/a/b` は nsid `"
 | Worker 設定 | `appview/lo-mcp-component/wrangler.jsonc` |
 | actor 記述子 | `appview/lo-mcp-component/kotodama.jsonld` |
 | 業務プロセス | `bpmn/lo.bpmn` |
-| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `MIGRATION-TODO.md` |
+| 由来・権利・識別 | `NOTICE` / `README.edn` / `migration.edn` / `MIGRATION-TODO.md` / `blueprint.edn` |
 | 文書 | `README.md` / `docs/operator-quickstart.md` / `docs/adr/0001-*.edn` |
 
 **production の TypeScript は 4 本から 0 本、Svelte は 1 本から 0 本、正本言語
